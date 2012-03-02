@@ -44,5 +44,5 @@ module Formtastic
   end
 end
 
-Formtastic::SemanticFormBuilder.send(:include, Formtastic::DatePicker)
-Formtastic::SemanticFormBuilder.send(:include, Formtastic::DateTimePicker)
+Formtastic::FormBuilder.send(:include, Formtastic::DatePicker)
+Formtastic::FormBuilder.send(:include, Formtastic::DateTimePicker)
